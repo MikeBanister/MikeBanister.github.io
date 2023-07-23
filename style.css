@@ -59,9 +59,10 @@ body {
   color:white;
 }
 
-.sidebar-list-item {
+.sidebar-list li {
   margin-top:0.4rem;
 }
+
 
 .contact-link:link {
   color: white;
