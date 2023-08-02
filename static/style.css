@@ -144,6 +144,16 @@ hr {
 }
 
 
+
+/* MAP */
+.custom-popup .leaflet-popup-content-wrapper {
+  background:#2c3e50;
+  color:#fff;
+  border-radius: 0px;
+  padding:5px;
+  }
+
+
 /* MOBILE */
 @media (max-width: 767px) {
   .container-lg {

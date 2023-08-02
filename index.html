@@ -14,18 +14,20 @@
     crossorigin="anonymous">
     
     <!--CSS-->
-    <link rel = "stylesheet" type = "text/css" href = "style.css">    
+    <link rel = "stylesheet" type = "text/css" href = "static/style.css">    
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin="" />
 
-    <!-- Leaflet JavaScript code -->
+    <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
 
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
 
 
 </head>
@@ -100,6 +102,17 @@
                     </ul>
                 </div>
 
+                <div class="container sidebar-container">
+                    <div class="sidebar-header">
+                        PAGES
+                    </div>
+                    <hr>
+                    <ul class="sidebar-list">
+                        <li id="resume-button"><a href="#">Resume</a></li>
+                        <li id="map-button"><a href="#">Map</a></li>
+                    </ul>
+                </div>
+
             </div>
 
             <div class="col-lg-9 mainbody py-5" id="main-body"></div>
@@ -115,8 +128,11 @@
 <!--Bootstrap JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
+<!-- config -->
+<script type="text/javascript" src="config.js"></script>
+
 <!--JS-->
-<script type="text/javascript" src = "logic.js"></script>   
+<script type="text/javascript" src = "static/logic.js"></script>   
 
 
 </html>

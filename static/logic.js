@@ -1,5 +1,5 @@
 // LOAD RESUME PAGE FIRST
-$("#main-body").load("pages/resume.html")
+$("#main-body").load("pages/map.html")
 
  // PAGE BUTTONS
 
