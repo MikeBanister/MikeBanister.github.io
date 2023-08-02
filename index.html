@@ -8,9 +8,24 @@
     <title>Mike Banister</title>
 
     <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    
     <!--CSS-->
     <link rel = "stylesheet" type = "text/css" href = "style.css">    
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+
+    <!-- Leaflet JavaScript code -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
+
 
 </head>
 
@@ -86,162 +101,19 @@
 
             </div>
 
+            <div class="col-lg-9 mainbody py-5" id="main-body"></div>
 
-
-
-            <div class="col-lg-9 mainbody py-5">
-
-                <!-- CAREER PROFILE -->
-
-                <div class="container section career-profile">
-                    <div class="section-title">CAREER PROFILE</div>
-                    <p>
-                        I am an analytical, solution-focused professional with a strong background in financial modeling. I recently completed a Data Analytics Certificate Program at the University of Toronto, enhancing my skill set and opening new avenues for applying data-driven insights to make strategic business decisions. I am actively seeking opportunities in the data analytics space to leverage my financial acumen and analytical expertise for the benefit of innovative organizations.
-                    </p>
-                </div>
-
-                <!-- EDUCATION SECTION -->
-
-                <div class="container section resume">
-                    <div class="section-title">
-                        EDUCATION
-                    </div>
-                    <div class="row resume-item">
-                        <div class="job-location float-start">University of Toronto</div>
-                        <div class="row resume-title-row">
-                            <div class="col-sm-6 job-title">Data Analytics Certificate</div>
-                            <div class="col-sm-6 job-time">January - August 2023</div>
-                        </div>
-                        <div class="resume-body">
-                            <ul class="job-description">
-                                <li>Data analytic techniques and technology</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row resume-item">
-                        <div class="job-location float-start">University of Alberta</div>
-                        <div class="row resume-title-row">
-                            <div class="col-sm-6 job-title">Bachelors of Commerce</div>
-                            <div class="col-sm-6 job-time">2008 - 2012</div>
-                        </div>
-                        <div class="resume-body">
-                            <ul class="job-description">
-                                <li>Finance & Marketing</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- RESUME SECTION -->
-
-                <div class="container section resume">
-                    <div class="section-title">
-                        PROFESSIONAL EXPERIENCE
-                    </div>
-                    <div class="row resume-item">
-                        <div class="job-location">ATB Financial</div>
-                        <div class=" row resume-title-row">
-                            <div class="col-sm-6 job-title">Associate Director, Real Estate North</div>
-                            <div class="col-sm-6 job-time">November 2020 - November 2022</div>
-                        </div>
-                        <hr>
-                        <div class="resume-body">
-                            <ul class="job-description">
-                                <li>
-                                    Managed existing relationships within a large portfolio of commercial loans worth over $700 million. Clients included national REITs, neighbourhood developers and multifamily investors.
-                                </li>
-                                <li>
-                                    Underwrote new loan proposals using a narrative driven approach that incorporated cash flow modeling, multivariate scenario modeling and market performance projections.
-                                </li>
-                                <li>
-                                    Underwrote and funded CMHC backed multifamily loans for three Edmonton  apartment construction projects each worth more than $50 million. These loan facilities allowed for longer amortization periods and insulation against rising interest rates and were the decisive factor that enabled our borrowers to undertake the projects.
-                                </li>
-                                <li>
-                                    Constructed a method for modeling the sensitivity of a Mortgage Investment Company’s residential loan portfolio to changes in home prices and interest rates which determined at what combination of factors ATB’s underlying loans could potentially be in default.
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="row resume-title-row">
-                            <div class="col-sm-6 job-title">Associate Director, Sales Agility</div>
-                            <div class="col-sm-6 job-time">September 2017 - November 2020</div>
-                        </div>
-                        <hr>
-                        <div class="resume-body">
-                            <ul class="job-description">
-                                <li>
-                                    Prepared Credit Applications for annual reviews, credit amendments and new loan transactions.
-                                </li>
-                                <li>
-                                    Mentored associates in underwriting, risk analysis, best practices and data analysis.
-                                </li>
-                                <li>
-                                    Designed and programmed a VBA based tool for underwriting accounts receivable loans and predicting noncompliant financial practices. 
-                                </li>
-                                <li>
-                                    Created Excel models to predict a borrower or assets potential incomes and sensitivity to changes such as interest rates or market conditions.
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="row resume-title-row">
-                            <div class="col-sm-6 job-title">Real Estate Analyst</div>
-                            <div class="col-sm-6 job-time">June 2013 - June 2015</div>
-                        </div>
-                        <hr>
-                        <div class="resume-body">
-                            <ul class="job-description">
-                                <li>
-                                    Developed and maintained tracking methods for complex lending agreements using Excel, Google Suite and scripting in VBA and Google Apps script.
-                                </li>
-                                <li>
-                                    Ensured lending tracking methods are accurate and user friendly while considering the needs of multiple stakeholders including internal users, audit and client contacts.
-                                </li>
-                                <li>
-                                    Streamlined reporting methods to ensure data is communicated in a concise, error resistant and time efficient process. 
-                                </li>
-                                <li>
-                                    Developed analysis tools including spreadsheets capable of handling large real estate portfolios in order to produce accurate financial metrics for lending recommendations.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="row resume-item">
-                        <div class="job-location">Avison Young Commercial Real Estate</div>
-                        <div class="row resume-title-row">
-                            <div class="col-sm-6 job-title">Research Manager</div>
-                            <div class="col-sm-6 job-time">June 2013 - June 2015</div>
-                        </div>
-                        <hr>
-                        <div class="resume-body">
-                            <ul class="job-description">
-                                <li>
-                                    Researched and wrote quarterly market statistics and commentary reports concerning office, industrial and investment classes of commercial property.
-                                </li>
-                                <li>
-                                    Used Excel and data processing skills to design and maintain databases for tracking vacant properties and market statistics.
-                                </li>
-                                <li>
-                                    Created statistical analysis models predicting the effect of market factors on real estate pricing, vacancy and availability.
-                                </li>
-                                <li>
-                                    Represented Avison Young at BOMA (Building Owners and Managers Association) leasing guide committee.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </div>
     </div> 
 </body>
 
+
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <!--Bootstrap JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 <!--JS-->
 <script type="text/javascript" src = "logic.js"></script>   
 
